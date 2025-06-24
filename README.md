@@ -19,11 +19,15 @@ Run the scraper
 python ggyou.py -s "your search term" -t no_of_searches
 
 How It Works
+
 Open Google Maps:
 The script first opens [Google Maps](https://www.google.com/maps) in a Chromium browser window.
+
 Enter Search Term:
-It enters your search term (example: `"companies in Gurgaon"`) into the search bar, just like a human would type.
+It enters your search term (example: `"companies in Gurgaon"`) into the search bar.
+
 Load Business Listings:
-It scrolls the left-side panel in Google Maps , this loads more and more businesses.
-You can tell it how many businesses to scrape with:
+It scrolls the left-side panel in Google Maps.
+
+You can tell it how many businesses/places to scrape :
 python ggyou.py -s "your search" -t 50
